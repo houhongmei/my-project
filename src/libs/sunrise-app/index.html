@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sunrise.ajax test</title>
+</head>
+<body>
+</body>
+<script type="text/javascript" src="../transfer/jquery.min.js"></script>
+<script type="text/javascript" src="sunrise-app-config.js"></script>
+<script type="text/javascript" src="sunrise-app.js"></script>
+
+<script>
+    $(function(){
+        $.ajax({
+            url:"member/!member/authority/~java/Authority.listModule",
+            type:"post",
+            data:"json",
+            success:function(data){
+                console.log(data);
+            }
+        });
+    });
+</script>
+
+</html>

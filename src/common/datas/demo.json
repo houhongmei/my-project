@@ -1,0 +1,49 @@
+{
+  "header":{
+    "code":0,
+    "message":"获取任务信息成功"
+  },
+  "body":{
+    "proc_def_id":1,
+    "proc_def_code":"TEST",
+    "proc_def_name":"测试流程",
+    "proc_inst_id":2,
+    "proc_inst_time":"2017‐11‐01 10:40:58",
+    "proc_inst_user_id":2,
+    "proc_inst_user_name":"系统管理员",
+    "busi_type":"ORDER",
+    "busi_id":"C67223",
+    "act_def_id":2,
+    "act_def_name":"审批",
+    "act_def_code":"APPROVAL",
+    "job_id":4,
+    "job_inst_time":"2017‐11‐01 10:43:37",
+    "job_demand_finish_time":"2017‐11‐02 10:43:50",
+    "job_persist_time":3600000,
+    "job_process_time":3600000,
+    "job_task_count":4,
+    "job_task_finsish_count":3,
+    "task_id":2,
+    "task_name":"审批",
+    "task_owner":1,
+    "task_owner_name":"系统管理员",
+    "task_assignee":1,
+    "task_assignee_type":0,
+    "task_demand_finish_time":"2017‐11‐01 10:47:16",
+    "task_demand_finish_user":1,
+    "task_demand_finish_user_name":"系统管理员",
+    "task_begin_time":"2017‐11‐01 10:48:10",
+    "task_persist_time":3600000,
+    "task_process_time":3600000,
+    "task_snapshot_count":2,
+    "process_ui":{
+      "type":"url",
+      "data":"!test/abc/~/test.html"
+    },
+    "view_ui":{
+      "type":"html",
+      "data":"<div></div>"
+    },
+    "busi_data":{}
+  }
+}

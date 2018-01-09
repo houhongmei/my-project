@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chip component test</title>
+    <link type="text/css" rel="stylesheet" href="chip.css">
+</head>
+<body>
+
+<input id="ChipInput" style="display: none;">
+
+</body>
+<script type="text/javascript" src="../transfer/jquery.min.js"></script>
+<!--<script type="text/javascript" src="../sunrise-app/sunrise-app-config.js"></script>-->
+<!--<script type="text/javascript" src="../sunrise-app/sunrise-app.js"></script>-->
+<script type="text/javascript" src="chip.js"></script>
+
+<script>
+    var chipDatas = [{value:1,name:'Hello'},{value:2,name:'OK'}];
+
+    $("#ChipInput").chips({}).chips("setItems",chipDatas).chips("setItems",{value:3,name:'我是单独添加的'});
+
+    alert(JSON.stringify($("#ChipInput").chips("getItems")));
+</script>
+</html>

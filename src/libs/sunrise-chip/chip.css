@@ -1,0 +1,62 @@
+.chips {
+    cursor: text;
+    padding: 5px 5px;
+    /*margin: 10px 0 0 0;*/
+    overflow: hidden;
+    list-style: none;
+    /*border-bottom: 1px solid #ccc;*/
+    padding: 0px;
+}
+
+.chips .input {
+    /*height: 38px;*/
+    /*line-height: 38px;*/
+    outline: none;
+    font-size: 12px;
+    border: 0px;
+    /*width: 100%;*/
+    background-color: transparent;
+    /*border-bottom: 1px solid #ccc;*/
+    margin-bottom: 0px;
+}
+
+.chips li.chip {
+    padding: 5px 5px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    word-wrap: normal;
+    white-space: nowrap;
+    float: left;
+    cursor: pointer;
+}
+
+.chips li.filter{
+    line-height: 200%;
+    float: left;
+}
+
+.chips .chip .delete{
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+    margin-left: 10px;
+    background-image: url(delete.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    display: block;
+    float: right;
+}
+
+.chips .chip .delete:hover {
+    background-image: url(delete.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0px;
+}
+
+.chip.active{
+    color: #ec3f3f;
+    border: 1px solid #ec3f3f;
+    background-color: #cccccc;
+}
